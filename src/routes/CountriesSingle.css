@@ -1,0 +1,54 @@
+/* CountriesSingle.css */
+
+.text-center {
+  text-align: center;
+}
+
+.m-5 {
+  margin: 3rem 0;
+}
+
+.backToCountries {
+  background-color: rgb(41, 128, 64);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.backToCountries:hover {
+  background-color: rgb(30, 90, 45);
+}
+
+img.thumbnail {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.spinner {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border: 0.4rem solid rgba(0, 0, 0, 0.1);
+  border-top: 0.4rem solid rgb(75, 191, 230);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
